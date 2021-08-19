@@ -1,0 +1,241 @@
+.container-intro{
+    display: flex;
+    align-items: baseline;
+}
+.btn-end{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.title-reco{
+    color: var(--pessoas-font-color);
+    font-weight: bold;
+    font-size: 35px;
+}
+.intra-title{
+    color: var(--pessoas-font-color);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.grafico-81{
+    content: var(--grafico-white-81);
+    width: 200px;
+}
+.one{
+    background-color: rgba(51,51,51,1);
+    color: white;
+    padding: 30px;
+}
+.container-text{
+    gap: 100px;
+}
+.section-text{
+    text-align: justify;
+}
+.title-text-section-one{
+    font-weight: bold;
+    color: var(--pessoas-font-color);
+}
+.title-grafics{
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+.section-box{
+    background-color: rgba(229,229,229,1);
+    padding-top: 10px;
+}
+.sub-container{
+    background-color: rgba(216,214,214,1);
+    color: black;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(30px);
+}
+.title-black{
+    color: rgba(67,67,67,1);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.space-title{
+    display: flex;
+    margin-left: 0%;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.content-text{
+    margin-top: -70px;
+}
+
+.externo {
+    display: flex;
+    align-self: center;
+    font-weight: bold;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-left: 120px;
+    margin-top: -100px;
+}
+
+.chart {
+    height: 2rem;
+    width: 200%;
+    border: 1px solid black;
+    background-color: white;
+    border:none;
+    border-radius: 2rem;
+}
+
+.sp {
+    width: 550px;
+    border: 1px solid;
+}
+.chart div {
+    height: 100%;
+    float: left;
+}
+.chart .start {
+    border-radius: 2rem;
+}
+.chart .end {
+    border-radius: 0 2rem 2rem 0;
+}
+.chart .green {
+    background-color: green;
+}
+.competencia {
+    min-width: 14%;
+    font-size: 1rem;
+    margin-left: 12px;
+}
+
+.container-progress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 100px;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(239,239,239,1);
+    border-radius: 20px 0 20px 0 20px;
+}
+.progress-one{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin-top: -50px;
+}
+.progress-two{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin-top: -11px;
+}
+.chart1 {
+    height: 2rem;
+    width: 200%;
+    border: 1px solid black;
+    background-color: white;
+    border:none;
+    border-radius: 2rem;
+}
+.barra{
+    border-left: 1px solid;
+    height: 100px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+.max{
+    font-size: 1rem;
+}
+
+.externo1 {
+    align-self: center;
+    font-weight: bold;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70px;
+    margin-right: 50px;
+}
+
+.sp {
+    width: 550px;
+    border: 1px solid;
+}
+.chart1 div {
+    height: 80%;
+    float: left;
+}
+.chart1 .start {
+    border-radius: 2rem;
+}
+.chart1 .end {
+    border-radius: 0 2rem 2rem 0;
+}
+.chart1 .green {
+    background-color: green;
+}
+.yellow{
+    background-color: rgba(240,227,71,1);
+}
+
+.sub-container{
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1200px){
+    .container-intro{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .one article{
+        display: flex;
+        flex-direction: column;
+    }
+    .competencia{    
+        min-width: 60%;
+    }
+    .container-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .section-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .bt-detalhes{
+        display: none;
+    }
+    .container-progress{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 100px;
+        color: black;
+        font-weight: bold;
+        background-color: rgba(239,239,239,1);
+        border-radius: 20px 0 20px 0 20px;
+    }
+    .barra{
+        display: none;
+    }
+    .progress-two{
+        margin-bottom: 40px;
+    }
+}

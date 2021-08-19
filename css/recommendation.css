@@ -1,0 +1,32 @@
+.one {
+    padding: 20px;
+}
+.title-text-section-one{
+    font-size: 30px;
+}
+.title-reco{
+    font-size: 300%;
+    font-weight: bold;
+}
+.text-section-one{
+    text-align: justify;
+}
+.container-intro{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.bt-detalhes{
+    margin: 30px;
+    width: 100px;
+}
+.back{
+    width: 19px;
+}
+.center-back{
+    display: flex;
+    justify-content: center;
+}
+.circle{
+    width: 10px;
+}

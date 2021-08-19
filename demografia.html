@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Demografia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/demografia.css">
+</head>
+
+<body class="own-report">
+
+    <div id="container" class="container">
+        <div class="row">
+            <div class="col-menu">
+                <input type="checkbox" id="check">
+                <label for="check">
+                    <img id="btn" src="img/menu.png">
+                </label>
+                <aside id="aside">
+                    <div class="roller-bar" id="navbar">
+                        <figure class="logo"></figure>
+                        <nav>
+                            <ul>
+                                <li><a href="./index.html">resultados</a></li>
+                                <li><a href="./recomendação.html">recomendações</a></li>
+                                <li><a href="./pessoas.html">pessoas</a>
+                                    <ul>
+                                        <li class="second-level"><a href="./intra.html">intraempreendedorismo</a></li>
+                                        <li class="second-level"><a href="./adaptabilidade.html">adaptabilidade</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./dna.html">dna para inovação</a></li>
+                                <li><a href="./flow.html">flow de inovação</a>
+                                    <ul>
+                                        <li class="second-level"><a href="./estrategia.html">estratégia & liderança</a>
+                                        </li>
+                                        <li class="second-level"><a href="./inteligencia.html">inteligência &
+                                                ideação</a></li>
+                                        <li class="second-level"><a href="./desenvolvimento.html"
+                                                >desenvolvimento & gestão</a></li>
+                                        <li class="second-level"><a  href="./resultados.html">resultado & impacto</a></li>
+                                    </ul>
+                                </li>
+                                <li ><a href="./vetores.html">vetores de inovação</a></li>
+                                <li><a href="#">análise e benchmark</a>
+                                    <ul>
+                                        <li class="second-level"><a href="#">Innoway <span class="em-breve">(em
+                                                    breve)</span></a></li>
+                                        <li class="second-level"><a href="#">Setorial <span class="em-breve">(em
+                                                    breve)</span></a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./innopedia.html">innopedia</a></li>
+                                <li class="selected"><a href="./demografia.html">demográficos</a></li>
+                                <li><a href="./pesquisa.html">confiabilidade & metodologia</a></li>
+                                <li><a href="#">downloads</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </aside>
+            </div>
+            <div class="col-md-12 col-conteudo">
+                <div class="row">
+
+                    <header id="header">
+                        <div class="cabecalho">
+                            <div>
+                                <img src="img/company-logo.svg">
+                            </div>
+                            <div class="box-cabecalho">
+                                <div class="innovation-cabecalho">
+                                    <span>Innovation Power</span>
+                                    <p>avançado</p>
+                                </div>
+                                <div class="score-cabecalho">
+                                    <span>75</span>
+                                    <p>score</p>
+                                </div>
+                            </div>
+                            <div class="box-cabecalho">
+                                <div class="pessoas-cabecalho">
+                                    <span>pessoas</span><span>77%</span>
+                                </div>
+                                <div class="flow-cabecalho">
+                                    <span>flow de inovação</span><span>64%</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img onclick="javascript:changeOwner();" src="img/logout.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="busca">
+                            <input class="field-busca" type="text" placeholder="Pesquisar Innopedia">
+                            <button class="lupa"></button>
+                        </div>
+                    </header>
+                    <main>
+                        <div class="container-intro">
+                            <p class="title-reco">DEMOGRÁFICOS</p>
+                            <button class="bt-voltar"><img class="back" src="./img/back.png">Voltar</button>
+                        </div>
+                        <section class="section one">
+                            <div class="container-text">
+
+                                <p class="title-text-section-one">TOTAL DA AMOSTRA: <strong>67 RESPONDENTES</strong></p>
+
+                                <div class="container-dados">
+                                    <figure class="planilha-1"></figure>
+                                </div>
+
+                                <div class="container-dados">
+                                    <figure class="planilha-2"></figure>
+                                </div>
+
+                                <div class="container-dados">
+                                    <figure class="planilha-3"></figure>
+                                </div>
+
+                                <div class="container-dados">
+                                    <figure class="planilha-4"></figure>
+                                </div>
+
+                                <div class="container-dados">
+                                    <figure class="planilha-5"></figure>
+                                </div>
+
+                                <div class="container-dados">
+                                    <figure class="planilha-6"></figure>
+                                </div>
+
+                            </div>
+                        </section>
+                        <div class="center-back">
+                            <button class="bt-voltar"><img class="back" src="./img/back.png">Voltar</button>
+                        </div>
+                    </main>
+                </div>
+                <script src="js/sticky.js"></script>
+                <script src="js/temp.js"></script>
+</body>
+
+</html>

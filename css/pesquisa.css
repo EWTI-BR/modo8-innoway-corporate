@@ -1,0 +1,16 @@
+.title-text-section-one{
+    font-size: 15px;
+    color: rgba(67,67,67,1);
+}
+.title-reco{
+    font-size: 30px;
+}
+.container-intro{
+    display: flex;
+    align-items: center;
+}
+.sub{
+    font-weight: bold;
+    margin-bottom: -16px;
+    color: rgba(67,67,67,1);
+}
