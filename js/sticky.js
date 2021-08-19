@@ -11,7 +11,7 @@ var sticky = header.offsetTop;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
-//    console.log(window.pageYOffset + "-" + sticky)
+    console.log(window.pageYOffset + "-" + sticky)
 
     if (window.pageYOffset > sticky) {
         header.classList.add("sticky")
@@ -19,22 +19,3 @@ function myFunction() {
         header.classList.remove("sticky")
     }
 }
-/*
-window.onresize = function () { myResponse() }
-
-function myResponse() {
-    console.log('tao me mexendo!')
-    if (window.innerWidth < 1280) {
-        navbar.classList.add("responsive-bar")
-        container.classList.add("responsive-page")
-        container.classList.remove("container")
-        //navbar.style.display = 'none';
-    }
-    if (window.innerWidth < 1000) {
-        container.classList.add("responsive")
-    }
-
-
-}
-
-*/

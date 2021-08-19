@@ -3,485 +3,499 @@
 
 <head>
     <title>Resultados</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/main.css">
-
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css">
 </head>
 
 <body class="own-report">
-    <div class="row">
-        <div class="col-menu">
-            <input type="checkbox" id="check">
-            <label for="check">
-                <img id="btn" src="img/menu.png">
-            </label>
-            <aside id="aside">
-                <div class="roller-bar" id="navbar">
-                    <figure class="logo"></figure>
-                    <nav>
-                        <ul>
-                            <li class="selected"><a href="./index.html">resultados</a></li>
-                            <li><a href="./recomendação.html">recomendações</a></li>
-                            <li><a href="./pessoas.html">pessoas</a>
-                                <ul>
-                                    <li class="second-level"><a href="./intra.html">intraempreendedorismo</a></li>
-                                    <li class="second-level"><a href="./adaptabilidade.html">adaptabilidade</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./dna.html">dna para inovação</a></li>
-                            <li><a href="./flow.html">flow de inovação</a>
-                                <ul>
-                                    <li class="second-level"><a href="./estrategia.html">estratégia & liderança</a></li>
-                                    <li class="second-level"><a href="./inteligencia.html">inteligência & ideação</a>
-                                    </li>
-                                    <li class="second-level"><a href="./desenvolvimento.html">desenvolvimento &
-                                            gestão</a></li>
-                                    <li class="second-level"><a href="./resultados.html">resultado & impacto</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./vetores.html">vetores de inovação</a></li>
-                            <li><a href=".">análise e benchmark</a>
-                                <ul>
-                                    <li class="second-level"><a href="">Innoway <span class="em-breve">(em
-                                                breve)</span></a></li>
-                                    <li class="second-level"><a href="#">Setorial <span class="em-breve">(em
-                                                breve)</span></a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./innopedia.html">innopedia</a></li>
-                            <li><a href="./demografia.html">demográficos</a></li>
-                            <li><a href="./pesquisa.html">confiabilidade & metodologia</a></li>
-                            <li><a href="#">downloads</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </aside>
-        </div>
-        <div class="col-md-12 col-conteudo">
-            <div class="row">
-
-                <header id="header">
-                    <div class="cabecalho">
-                        <div>
-                            <img src="img/company-logo.svg">
-                        </div>
-                        <div class="box-cabecalho">
-                            <div class="innovation-cabecalho">
-                                <span>Innovation Power</span>
-                                <p>avançado</p>
-                            </div>
-                            <div class="score-cabecalho">
-                                <span>75</span>
-                                <p>score</p>
-                            </div>
-                        </div>
-                        <div class="box-cabecalho">
-                            <div class="pessoas-cabecalho">
-                                <span>pessoas</span><span>77%</span>
-                            </div>
-                            <div class="flow-cabecalho">
-                                <span>flow de inovação</span><span>64%</span>
-                            </div>
-                        </div>
-                        <div>
-                            <img onclick="javascript:changeOwner();" src="img/logout.svg" alt="">
-                        </div>
+    <div class="container">
+        <div>
+            <div class="col-menu">
+                <input type="checkbox" id="check">
+                <label for="check">
+                    <img id="btn" src="img/menu.png">
+                </label>
+                <aside id="aside">
+                    <div class="roller-bar" id="navbar">
+                        <figure class="logo"></figure>
+                        <nav>
+                            <ul>
+                                <li class="selected"><a href="./index.html">resultados</a></li>
+                                <li><a href="./recomendação.html">recomendações</a></li>
+                                <li><a href="./pessoas.html">pessoas</a>
+                                    <ul>
+                                        <li class="second-level"><a href="./intra.html">intraempreendedorismo</a></li>
+                                        <li class="second-level"><a href="./adaptabilidade.html">adaptabilidade</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./dna.html">dna para inovação</a></li>
+                                <li><a href="./flow.html">flow de inovação</a>
+                                    <ul>
+                                        <li class="second-level"><a href="./estrategia.html">estratégia & liderança</a>
+                                        </li>
+                                        <li class="second-level"><a href="./inteligencia.html">inteligência &
+                                                ideação</a>
+                                        </li>
+                                        <li class="second-level"><a href="./desenvolvimento.html">desenvolvimento &
+                                                gestão</a></li>
+                                        <li class="second-level"><a href="./resultados.html">resultado & impacto</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="./vetores.html">vetores de inovação</a></li>
+                                <li><a href=".">análise e benchmark</a>
+                                    <ul>
+                                        <li class="second-level"><a href="">Innoway <span class="em-breve">(em
+                                                    breve)</span></a></li>
+                                        <li class="second-level"><a href="#">Setorial <span class="em-breve">(em
+                                                    breve)</span></a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="./innopedia.html">innopedia</a></li>
+                                <li><a href="./demografia.html">demográficos</a></li>
+                                <li><a href="./pesquisa.html">confiabilidade & metodologia</a></li>
+                                <li><a href="#">downloads</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                    <div class="busca">
-                        <input class="field-busca" type="text" placeholder="Pesquisar Innopedia">
-                        <button class="lupa"></button>
-                    </div>
-                </header>
-                <main>
-                    <section class="section one">
-                        <article class="main-header">
-                            <figure class="innovation-title"></figure>
-                        </article>
-                        <article>
-                            <div class="main-content">
-                                <div>
-                                    <p class="score-level-section-one">Avançado</p>
-                                    <div class="pontuacao-content">
-                                        <div class="pontuacao-section-one">
-                                            <p><strong>PONTUAÇÃO</strong><br /> entre <strong>71</strong> a
-                                                <strong>87</strong>
-                                                pontos
-                                            </p>
-                                            <br />
-                                            <p><strong>DATA DE APLICAÇÃO</strong><br />Julho 2021</p>
-                                        </div>
-                                        <div class="score-section-one">
-                                            <span>71</span>
-                                            <p>score</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <figure class="infinito-score"></figure>
-                                </div>
-                            </div>
-                            <div class="container-text">
-                                <div>
-                                    <p class="header-text-section-one">Conceitos</p>
-                                    <p class="title-text-section-one">pessoas</p>
-                                    <p class="text-section-one">Baseada no conceito AGILE, demonstra o equilíbrio da
-                                        tríade
-                                        RESULTADO, RELACIONAMENTO e APRENDIZADO. Somada ao poder
-                                        da DIVERSIDADE, indica a agilidade para se adaptar às rápidas e constantes
-                                        mudanças e
-                                        evoluções do ambiente externo.</p>
-                                    <p class="title-text-section-one">flow de inovação</p>
-                                    <p class="text-section-one">A inovação se tornou sinônimo de relevância e
-                                        longevidade para
-                                        as organizações. Neste contexto, é necessário ir além da
-                                        criatividade e do desenvolvimento orgânico. Para ser competitivo, é importante
-                                        gerir o
-                                        “Inovar” como uma ciência
-                                        organizada e
-                                        estruturada. O Flow, detalhado aqui, traz uma abordagem sustentável para que
-                                        organizações possam evoluir sua cultura de
-                                        inovação com métricas e resultados consistentes.</p>
-                                </div>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="section two">
-                        <article class="second-header">
-                            <div>
-                                <h2>MATURIDADE DE INOVAÇÃO POR INDICADOR</h2>
-                            </div>
-                            <div class="maturidade fluente line">
-                                <div>
-                                    <span>FLUENTE</span>
-                                    <p>de 88 pontos em diante</p>
-                                </div>
-                                <div class="margem-maturidade">
-                                    <div class="areas">INTRAEMPREENDEDORISMO</div>
-                                    <div class="areas">ADAPTABILIDADE</div>
-                                    <div class="areas">ESTRATÉGIA & LIDERANÇA</div>
-                                    <div class="areas">RESULTADO & IMPACTO</div>
-                                    <div class="areas">DESENVOLVIMENTO & GESTÃO</div>
-                                    <div class="areas">INTELIGÊNCIA & IDEAÇÃO</div>
-                                </div>
-                            </div>
-                            <div class="maturidade avancado line">
-                                <div>
-                                    <span>AVANÇADO</span>
-                                    <p>de 71 a 87 pontos</p>
-                                </div>
-                                <div class="margem-maturidade">
-                                    <div class="areas">INTRAEMPREENDEDORISMO</div>
-                                    <div class="areas">ADAPTABILIDADE</div>
-                                    <div class="areas">ESTRATÉGIA & LIDERANÇA</div>
-                                    <div class="areas">RESULTADO & IMPACTO</div>
-                                    <div class="areas">DESENVOLVIMENTO & GESTÃO</div>
-                                    <div class="areas">INTELIGÊNCIA & IDEAÇÃO</div>
-                                </div>
-                            </div>
-                            <div class="maturidade intermediario line">
-                                <div>
-                                    <span>INTERMEDIÁRIO</span>
-                                    <p>de 41 a 70 pontos</p>
-                                </div>
-                                <div class="margem-maturidade">
-                                    <div class="areas">INTRAEMPREENDEDORISMO</div>
-                                    <div class="areas">ADAPTABILIDADE</div>
-                                    <div class="areas">ESTRATÉGIA & LIDERANÇA</div>
-                                    <div class="areas">RESULTADO & IMPACTO</div>
-                                    <div class="areas">DESENVOLVIMENTO & GESTÃO</div>
-                                    <div class="areas">INTELIGÊNCIA & IDEAÇÃO</div>
-                                </div>
-                            </div>
-                            <div class="maturidade basico">
-                                <div>
-                                    <span>BÁSICO</span>
-                                    <p>até 40 pontos</p>
-                                </div>
-                                <div class="margem-maturidade">
-                                    <div class="areas">INTRAEMPREENDEDORISMO</div>
-                                    <div class="areas">ADAPTABILIDADE</div>
-                                    <div class="areas">ESTRATÉGIA & LIDERANÇA</div>
-                                    <div class="areas">RESULTADO & IMPACTO</div>
-                                    <div class="areas">DESENVOLVIMENTO & GESTÃO</div>
-                                    <div class="areas">INTELIGÊNCIA & IDEAÇÃO</div>
-                                </div>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="section three">
-                        <article class="third-header">
-                            <div>
-                                <h2>PESSOAS</h2>
-                            </div>
-                            <div class="flex">
-                                <div class="flex fdcol w50">
-                                    <div class="flex jcc mb57">
-                                        <div class="mr10">
-                                            <div class="bb-top box-top-1">
-                                                <div class="header-meia-pizza">
-                                                    <p><strong>INTRAEMPREENDEDORISMO</strong></p>
-                                                    <p><small>(INDIVÍDUO)</small></p>
-                                                </div>
-                                                <div class="meia-pizza">
-                                                    <figure>
-                                                        <img src="graficos/meia_pizza_branco/81n.svg" width="152">
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                            <div class="bb-bottom box-bottom-1">
-                                                <div class="score-meia-pizza">AVANÇADO</div>
-                                            </div>
-                                        </div>
-                                        <div class="mr10">
-                                            <div class="bb-top box-top-1">
-                                                <div class="header-meia-pizza">
-                                                    <p><strong>ADAPTABILIDADE</strong></p>
-                                                    <p><small>(COLETIVO)</small></p>
-                                                </div>
-                                                <div class="meia-pizza">
-                                                    <figure>
-                                                        <img src="graficos/meia_pizza_branco/75n.svg" width="152">
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                            <div class="bb-bottom box-bottom-1">
-                                                <div class="score-meia-pizza">AVANÇADO</div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="flex jcc">
-                                        <button class="bt-detalhes">VER EM DETALHES</button>
-                                    </div>
-                                </div>
-                                <div class="flex fdcol w50">
-                                    <div class="flex jcc plat40">
-                                        <div class="bb-full">
-                                            <div class="header-grafico mb20">
-                                                <P class="mb12"><strong>DNA PARA INOVAÇÃO</strong></P>
-                                                <p>
-                                                    Habilidades essenciais que tornam o indivíduo e o coletivo aptos
-                                                    para a
-                                                    inovação.
-                                                </p>
-                                            </div>
-                                            <div class="flex">
-                                                <div class="mr10">
-                                                    <div id="chart"></div>
-
-                                                </div>
-                                                <div class="header-grafico">
-                                                    <p class="mb12"><strong>PRINCIPAIS CARACTERÍSTICAS:</strong></p>
-                                                    <p class="mb12">- CRIATIVIDADE</p>
-                                                    <p class="mb12">- OTIMISMO</p>
-                                                    <p class="mb12">- CURIOSIDADE</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="flex jcc">
-                                        <button class="bt-detalhes btn">VER EM DETALHES</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="section four">
-                        <article class="third-header">
-                            <div>
-                                <h2>FLOW DE INOVAÇÃO</h2>
-                            </div>
-                            <div class="relative">
-                                <div class="seta p1">
-                                    <figure>
-                                        <img src="img/seta-dupla.svg">
-                                    </figure>
-                                </div>
-                                <div class="seta p2">
-                                    <figure>
-                                        <img src="img/seta-dupla.svg">
-                                    </figure>
-                                </div>
-                                <div class="seta p3">
-                                    <figure>
-                                        <img src="img/seta-dupla.svg">
-                                    </figure>
-                                </div>
-                                <div class="flex fdcol">
-                                    <div class="flex jcc mb57">
-                                        <div class="m-lat5">
-                                            <div class="bb-top box-top-2">
-                                                <div class="header-meia-pizza-2">
-                                                    <p><strong>ESTRATÉGIA <br>& LIDERANÇA</strong></p>
-                                                </div>
-                                                <div class="meia-pizza">
-                                                    <figure>
-                                                        <img src="graficos/meia_pizza_branco/64n.svg" width="170">
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                            <div class="bb-bottom box-bottom-2">
-                                                <div class="score-meia-pizza">INTERMEDIÁRIO</div>
-                                            </div>
-                                        </div>
-                                        <div class="m-lat5">
-                                            <div class="bb-top box-top-2">
-                                                <div class="header-meia-pizza-2">
-                                                    <p><strong>INTELIGÊNCIA<br> & IDEAÇÃO</strong></p>
-                                                </div>
-                                                <div class="meia-pizza">
-                                                    <figure>
-                                                        <img src="graficos/meia_pizza_branco/68n.svg" width="170">
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                            <div class="bb-bottom box-bottom-2">
-                                                <div class="score-meia-pizza">INTERMEDIÁRIO</div>
-                                            </div>
-                                        </div>
-                                        <div class="m-lat5">
-                                            <div class="bb-top box-top-2">
-                                                <div class="header-meia-pizza-2">
-                                                    <p><strong>DESENVOLVIMENTO<br>& GESTÃO</strong></p>
-                                                </div>
-                                                <div class="meia-pizza">
-                                                    <figure>
-                                                        <img src="graficos/meia_pizza_branco/64n.svg" width="170">
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                            <div class="bb-bottom box-bottom-2">
-                                                <div class="score-meia-pizza">INTERMEDIÁRIO</div>
-                                            </div>
-                                        </div>
-                                        <div class="m-lat5">
-                                            <div class="bb-top box-top-2">
-                                                <div class="header-meia-pizza-2">
-                                                    <p><strong>RESULTADO <br>& IMPACTO</strong></p>
-                                                </div>
-                                                <div class="meia-pizza">
-                                                    <figure>
-                                                        <img src="graficos/meia_pizza_branco/60n.svg" width="170">
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                            <div class="bb-bottom box-bottom-2">
-                                                <div class="score-meia-pizza">INTERMEDIÁRIO</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex jcc">
-                                <button class="bt-detalhes ml19">VER EM DETALHES</button>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="section five">
-                        <article>
-                            <div class="three-col">
-                                <div>
-                                    <p class="header-text-section-five">RECOMENDAÇÕES</p>
-                                    <button class="bt-detalhes-branco">VER TODAS EM DETALHES</button>
-                                </div>
-                                <div class="text-section-five border">
-                                    <span>PESSOAS</span>
-                                    <P>Estruturar e sistematizar a aprendizagem organizacional como vínculo entre o
-                                        indivíduo e
-                                        o coletivo, para genuinamente
-                                        pensar inovação como um time e não como uma área específica responsável pela
-                                        inovação.
-                                    </P>
-                                </div>
-                                <div class="text-section-five">
-                                    <span>FLOW DE INOVAÇÃO</span>
-                                    <P>Desenvolver um grid central de inovação que traga clareza de objetivos
-                                        (mercadológicos e
-                                        financeiros – CPIs & KPIs) e entregáveis para todas as áreas da organização.
-                                    </P>
-                                </div>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="fl-left duvidas bg-gray-1 border-radius-20 box-bottom-1 h410 mb25">
-                        <article>
-                            <div>
-                                <div class="mb40 mt20">
-                                    <figure>
-                                        <img src="img/innopedia.svg">
-                                    </figure>
-                                </div>
-                                <div class="flex aic fdcol plat40 mb40">
-                                    <p class="fs20 mb20">
-                                        <strong>Ficou em dúvida?</strong>
-                                    </p>
-                                    <p class="fs16 mb40">
-                                        Aqui você vai encontrar conceitos
-                                        e informações que facilitarão a
-                                        compreensão da cultura de inovação
-                                        da sua empresa.
-                                    </p>
-                                    <button class="bt-detalhes">VER EM DETALHES</button>
-                                </div>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="fl-right vetor bg-gray-2 border-radius-20 box-bottom-1 h410 mb25">
-                        <article class="third-header text-flex">
-                            <div>
-                                <h2>VETORES PARA INOVAÇÃO</h2>
-                            </div>
-                            <div class="flex jcsa fs15 fcw mb40 box-flex w90">
-                                <div>
-                                    <p>- Estratégia & Liderança</p>
-                                    <p>- Inteligência & Ideação</p>
-                                    <p>- Amplitude da Inovação​</p>
-                                    <p>- Governança & Funil</p>
-                                    <p>- Modelos de Negócio​</p>
-                                </div>
-                                <div>
-                                    <p>- Transformação Digital​</p>
-                                    <p>- Data-Driven​</p>
-                                    <p>- Prontidão para Agile</p>
-                                    <p>- Inovação Aberta</p>
-                                </div>
-                            </div>
-                            <div>
-                                <button class="bt-detalhes-green  btn-details">VER EM DETALHES</button>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="fl-left analise bg-gray-3 border-radius-20 w488 h180 flex jcse aic">
-                        <div>
-                            <figure class="data"></figure>
-                        </div>
-                        <div class="flex fdcol jcfend h64">
-                            <div>
-                                <p class="fs25 fcb"><strong>ANÁLISE BENCHMARK</strong></p>
-                            </div>
-                            <div><button class="bt-detalhes mt20">EM BREVE</button></div>
-                        </div>
-                    </section>
-                    <section class="fl-right confi bg-gray-3 border-radius-20 w488 h180 flex jcse aic">
-                        <div>
-                            <figure class="increasing"></figure>
-                        </div>
-                        <div class="flex fdcol jcfend h64">
-                            <div>
-                                <p class="fs25 fcb"><strong>CONFIABILIDADE<br>& METODOLOGIA</strong></p>
-                            </div>
-                            <div><button class="bt-detalhes">VER EM DETALHES</button></div>
-                        </div>
-                    </section>
-                </main>
+                </aside>
             </div>
-            <script src="js/sticky.js"></script>
-            <script src="js/temp.js"></script>
+            <div class="col-conteudo">
+                <div>
+
+                    <header id="header">
+                        <div class="cabecalho">
+                            <div>
+                                <img src="img/company-logo.svg">
+                            </div>
+                            <div class="box-cabecalho">
+                                <div class="innovation-cabecalho">
+                                    <span>Innovation Power</span>
+                                    <p>avançado</p>
+                                </div>
+                                <div class="score-cabecalho">
+                                    <span>75</span>
+                                    <p>score</p>
+                                </div>
+                            </div>
+                            <div class="box-cabecalho">
+                                <div class="pessoas-cabecalho">
+                                    <span>pessoas</span><span>77%</span>
+                                </div>
+                                <div class="flow-cabecalho">
+                                    <span>flow de inovação</span><span>64%</span>
+                                </div>
+                            </div>
+                            <div>
+                                <img onclick="javascript:changeOwner();" src="img/logout.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="busca">
+                            <input class="field-busca" type="text" placeholder="Pesquisar Innopedia">
+                            <button class="lupa"></button>
+                        </div>
+                    </header>
+                    <main>
+                        <section class="section one">
+                            <article class="main-header">
+                                <figure class="innovation-title"></figure>
+                            </article>
+                            <article>
+                                <div class="main-content">
+                                    <div>
+                                        <p class="score-level-section-one">Avançado</p>
+                                        <div class="pontuacao-content">
+                                            <div class="pontuacao-section-one">
+                                                <p><strong>PONTUAÇÃO</strong><br /> entre <strong>71</strong> a
+                                                    <strong>87</strong>
+                                                    pontos
+                                                </p>
+                                                <br />
+                                                <p><strong>DATA DE APLICAÇÃO</strong><br />Julho 2021</p>
+                                            </div>
+                                            <div class="score-section-one">
+                                                <span>71</span>
+                                                <p>score</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <figure class="infinito-score"></figure>
+                                    </div>
+                                </div>
+                                <div class="container-text">
+                                    <div>
+                                        <p class="header-text-section-one">Conceitos</p>
+                                        <p class="title-text-section-one">pessoas</p>
+                                        <p class="text-section-one">Baseada no conceito AGILE, demonstra o equilíbrio da
+                                            tríade
+                                            RESULTADO, RELACIONAMENTO e APRENDIZADO. Somada ao poder
+                                            da DIVERSIDADE, indica a agilidade para se adaptar às rápidas e constantes
+                                            mudanças e
+                                            evoluções do ambiente externo.</p>
+                                        <p class="title-text-section-one">flow de inovação</p>
+                                        <p class="text-section-one">A inovação se tornou sinônimo de relevância e
+                                            longevidade para
+                                            as organizações. Neste contexto, é necessário ir além da
+                                            criatividade e do desenvolvimento orgânico. Para ser competitivo, é
+                                            importante
+                                            gerir o
+                                            “Inovar” como uma ciência
+                                            organizada e
+                                            estruturada. O Flow, detalhado aqui, traz uma abordagem sustentável para que
+                                            organizações possam evoluir sua cultura de
+                                            inovação com métricas e resultados consistentes.</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </section>
+                        <section class="section two">
+                            <article class="second-header">
+                                <div>
+                                    <h2>MATURIDADE DE INOVAÇÃO POR INDICADOR</h2>
+                                </div>
+                                <div class="maturidade fluente line">
+                                    <div>
+                                        <span>FLUENTE</span>
+                                        <p>de 88 pontos em diante</p>
+                                    </div>
+                                    <div class="margem-maturidade">
+                                        <div class="areas">INTRAEMPREENDEDORISMO</div>
+                                        <div class="areas">ADAPTABILIDADE</div>
+                                        <div class="areas">ESTRATÉGIA & LIDERANÇA</div>
+                                        <div class="areas">RESULTADO & IMPACTO</div>
+                                        <div class="areas">DESENVOLVIMENTO & GESTÃO</div>
+                                        <div class="areas">INTELIGÊNCIA & IDEAÇÃO</div>
+                                    </div>
+                                </div>
+                                <div class="maturidade avancado line">
+                                    <div>
+                                        <span>AVANÇADO</span>
+                                        <p>de 71 a 87 pontos</p>
+                                    </div>
+                                    <div class="margem-maturidade">
+                                        <div class="areas">INTRAEMPREENDEDORISMO</div>
+                                        <div class="areas">ADAPTABILIDADE</div>
+                                        <div class="areas">ESTRATÉGIA & LIDERANÇA</div>
+                                        <div class="areas">RESULTADO & IMPACTO</div>
+                                        <div class="areas">DESENVOLVIMENTO & GESTÃO</div>
+                                        <div class="areas">INTELIGÊNCIA & IDEAÇÃO</div>
+                                    </div>
+                                </div>
+                                <div class="maturidade intermediario line">
+                                    <div>
+                                        <span>INTERMEDIÁRIO</span>
+                                        <p>de 41 a 70 pontos</p>
+                                    </div>
+                                    <div class="margem-maturidade">
+                                        <div class="areas">INTRAEMPREENDEDORISMO</div>
+                                        <div class="areas">ADAPTABILIDADE</div>
+                                        <div class="areas">ESTRATÉGIA & LIDERANÇA</div>
+                                        <div class="areas">RESULTADO & IMPACTO</div>
+                                        <div class="areas">DESENVOLVIMENTO & GESTÃO</div>
+                                        <div class="areas">INTELIGÊNCIA & IDEAÇÃO</div>
+                                    </div>
+                                </div>
+                                <div class="maturidade basico">
+                                    <div>
+                                        <span>BÁSICO</span>
+                                        <p>até 40 pontos</p>
+                                    </div>
+                                    <div class="margem-maturidade">
+                                        <div class="areas">INTRAEMPREENDEDORISMO</div>
+                                        <div class="areas">ADAPTABILIDADE</div>
+                                        <div class="areas">ESTRATÉGIA & LIDERANÇA</div>
+                                        <div class="areas">RESULTADO & IMPACTO</div>
+                                        <div class="areas">DESENVOLVIMENTO & GESTÃO</div>
+                                        <div class="areas">INTELIGÊNCIA & IDEAÇÃO</div>
+                                    </div>
+                                </div>
+                            </article>
+                        </section>
+                        <section class="section three">
+                            <article class="third-header">
+                                <div>
+                                    <h2>PESSOAS</h2>
+                                </div>
+                                <div class="flex">
+                                    <div class="flex fdcol w50">
+                                        <div class="flex jcc mb57">
+                                            <div class="mr10">
+                                                <div class="bb-top box-top-1">
+                                                    <div class="header-meia-pizza">
+                                                        <p><strong>INTRAEMPREENDEDORISMO</strong></p>
+                                                        <p><small>(INDIVÍDUO)</small></p>
+                                                    </div>
+                                                    <div class="meia-pizza">
+                                                        <figure>
+                                                            <img src="graficos/meia_pizza_branco/81n.svg" width="152">
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                                <div class="bb-bottom box-bottom-1">
+                                                    <div class="score-meia-pizza">AVANÇADO</div>
+                                                </div>
+                                            </div>
+                                            <div class="mr10">
+                                                <div class="bb-top box-top-1">
+                                                    <div class="header-meia-pizza">
+                                                        <p><strong>ADAPTABILIDADE</strong></p>
+                                                        <p><small>(COLETIVO)</small></p>
+                                                    </div>
+                                                    <div class="meia-pizza">
+                                                        <figure>
+                                                            <img src="graficos/meia_pizza_branco/75n.svg" width="152">
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                                <div class="bb-bottom box-bottom-1">
+                                                    <div class="score-meia-pizza">AVANÇADO</div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="flex jcc">
+                                            <button class="bt-detalhes">VER EM DETALHES</button>
+                                        </div>
+                                    </div>
+                                    <div class="flex fdcol w50">
+                                        <div class="flex jcc plat40">
+                                            <div class="bb-full">
+                                                <div class="header-grafico mb20">
+                                                    <P class="mb12"><strong>DNA PARA INOVAÇÃO</strong></P>
+                                                    <p>
+                                                        Habilidades essenciais que tornam o indivíduo e o coletivo aptos
+                                                        para a
+                                                        inovação.
+                                                    </p>
+                                                </div>
+                                                <div class="flex">
+                                                    <div class="mr10">
+                                                        <div id="chart"></div>
+
+                                                    </div>
+                                                    <div class="header-grafico">
+                                                        <p class="mb12"><strong>PRINCIPAIS CARACTERÍSTICAS:</strong></p>
+                                                        <p class="mb12">- CRIATIVIDADE</p>
+                                                        <p class="mb12">- OTIMISMO</p>
+                                                        <p class="mb12">- CURIOSIDADE</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex jcc">
+                                            <button class="bt-detalhes btn">VER EM DETALHES</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </section>
+                        <section class="section four">
+                            <article class="third-header">
+                                <div>
+                                    <h2>FLOW DE INOVAÇÃO</h2>
+                                </div>
+                                <div class="relative">
+                                    <div class="seta p1">
+                                        <figure>
+                                            <img src="img/seta-dupla.svg">
+                                        </figure>
+                                    </div>
+                                    <div class="seta p2">
+                                        <figure>
+                                            <img src="img/seta-dupla.svg">
+                                        </figure>
+                                    </div>
+                                    <div class="seta p3">
+                                        <figure>
+                                            <img src="img/seta-dupla.svg">
+                                        </figure>
+                                    </div>
+                                    <div class="flex fdcol">
+                                        <div class="flex jcc mb57">
+                                            <div class="m-lat5">
+                                                <div class="bb-top box-top-2">
+                                                    <div class="header-meia-pizza-2">
+                                                        <p><strong>ESTRATÉGIA <br>& LIDERANÇA</strong></p>
+                                                    </div>
+                                                    <div class="meia-pizza">
+                                                        <figure>
+                                                            <img src="graficos/meia_pizza_branco/64n.svg" width="170">
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                                <div class="bb-bottom box-bottom-2">
+                                                    <div class="score-meia-pizza">INTERMEDIÁRIO</div>
+                                                </div>
+                                            </div>
+                                            <div class="m-lat5">
+                                                <div class="bb-top box-top-2">
+                                                    <div class="header-meia-pizza-2">
+                                                        <p><strong>INTELIGÊNCIA<br> & IDEAÇÃO</strong></p>
+                                                    </div>
+                                                    <div class="meia-pizza">
+                                                        <figure>
+                                                            <img src="graficos/meia_pizza_branco/68n.svg" width="170">
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                                <div class="bb-bottom box-bottom-2">
+                                                    <div class="score-meia-pizza">INTERMEDIÁRIO</div>
+                                                </div>
+                                            </div>
+                                            <div class="m-lat5">
+                                                <div class="bb-top box-top-2">
+                                                    <div class="header-meia-pizza-2">
+                                                        <p><strong>DESENVOLVIMENTO<br>& GESTÃO</strong></p>
+                                                    </div>
+                                                    <div class="meia-pizza">
+                                                        <figure>
+                                                            <img src="graficos/meia_pizza_branco/64n.svg" width="170">
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                                <div class="bb-bottom box-bottom-2">
+                                                    <div class="score-meia-pizza">INTERMEDIÁRIO</div>
+                                                </div>
+                                            </div>
+                                            <div class="m-lat5">
+                                                <div class="bb-top box-top-2">
+                                                    <div class="header-meia-pizza-2">
+                                                        <p><strong>RESULTADO <br>& IMPACTO</strong></p>
+                                                    </div>
+                                                    <div class="meia-pizza">
+                                                        <figure>
+                                                            <img src="graficos/meia_pizza_branco/60n.svg" width="170">
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                                <div class="bb-bottom box-bottom-2">
+                                                    <div class="score-meia-pizza">INTERMEDIÁRIO</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex jcc">
+                                    <button class="bt-detalhes ml19">VER EM DETALHES</button>
+                                </div>
+                            </article>
+                        </section>
+                        <section class="section five">
+                            <article>
+                                <div class="three-col">
+                                    <div>
+                                        <p class="header-text-section-five">RECOMENDAÇÕES</p>
+                                        <button class="bt-detalhes-branco">VER TODAS EM DETALHES</button>
+                                    </div>
+                                    <div class="text-section-five border">
+                                        <span>PESSOAS</span>
+                                        <P>Estruturar e sistematizar a aprendizagem organizacional como vínculo entre o
+                                            indivíduo e
+                                            o coletivo, para genuinamente
+                                            pensar inovação como um time e não como uma área específica responsável pela
+                                            inovação.
+                                        </P>
+                                    </div>
+                                    <div class="text-section-five">
+                                        <span>FLOW DE INOVAÇÃO</span>
+                                        <P>Desenvolver um grid central de inovação que traga clareza de objetivos
+                                            (mercadológicos e
+                                            financeiros – CPIs & KPIs) e entregáveis para todas as áreas da organização.
+                                        </P>
+                                    </div>
+                                </div>
+                            </article>
+                        </section>
+
+                        <section class="section six">
+                            <div class="fl-left duvidas bg-gray-1 border-radius-20 box-bottom-1 h410 mb25">
+                                <article>
+                                    <div>
+                                        <div class="mb40 mt20">
+                                            <figure>
+                                                <img src="img/innopedia.svg">
+                                            </figure>
+                                        </div>
+                                        <div class="flex aic fdcol plat40 mb40">
+                                            <p class="fs20 mb20">
+                                                <strong>Ficou em dúvida?</strong>
+                                            </p>
+                                            <p class="fs16 mb40">
+                                                Aqui você vai encontrar conceitos
+                                                e informações que facilitarão a
+                                                compreensão da cultura de inovação
+                                                da sua empresa.
+                                            </p>
+                                            <button class="bt-detalhes">VER EM DETALHES</button>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="fl-right vetor bg-gray-2 border-radius-20 box-bottom-1 h410">
+                                <article class="third-header text-flex">
+                                    <div>
+                                        <h2>VETORES PARA INOVAÇÃO</h2>
+                                    </div>
+                                    <div class="flex jcsa fs15 fcw mb40 box-flex w90">
+                                        <div>
+                                            <p>- Estratégia & Liderança</p>
+                                            <p>- Inteligência & Ideação</p>
+                                            <p>- Amplitude da Inovação​</p>
+                                            <p>- Governança & Funil</p>
+                                            <p>- Modelos de Negócio​</p>
+                                        </div>
+                                        <div>
+                                            <p>- Transformação Digital​</p>
+                                            <p>- Data-Driven​</p>
+                                            <p>- Prontidão para Agile</p>
+                                            <p>- Inovação Aberta</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button class="bt-detalhes-green  btn-details">VER EM DETALHES</button>
+                                    </div>
+                                </article>
+                            </div>
+
+                        </section>
+
+
+                        <section class="section six">
+
+                            <section class="fl-left analise bg-gray-3 border-radius-20 w488 h180 flex jcse aic">
+                                <div>
+                                    <figure class="data"></figure>
+                                </div>
+                                <div class="flex fdcol jcfend h64">
+                                    <div>
+                                        <p class="fs25 fcb"><strong>ANÁLISE BENCHMARK</strong></p>
+                                    </div>
+                                    <div><button class="bt-detalhes mt20">EM BREVE</button></div>
+                                </div>
+                            </section>
+                            <section class="fl-right confi bg-gray-3 border-radius-20 w488 h180 flex jcse aic">
+                                <div>
+                                    <figure class="increasing"></figure>
+                                </div>
+                                <div class="flex fdcol jcfend h64">
+                                    <div>
+                                        <p class="fs25 fcb"><strong>CONFIABILIDADE<br>& METODOLOGIA</strong></p>
+                                    </div>
+                                    <div><button class="bt-detalhes">VER EM DETALHES</button></div>
+                                </div>
+                            </section>
+                        </section>
+
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/sticky.js"></script>
+    <script src="js/temp.js"></script>
 </body>
 
 </html>

@@ -1,60 +1,4 @@
-header {
-    overflow: hidden;
-    background-color: transparent;
-    height: 164px;
-    margin-top: 26px;
-}
 
-/*Menu*/
-
-  a {
-    color: rgb(255, 255, 255);
-    text-decoration: none; /* no underline */
-  }
-  
-  main {
-      margin-top: 50px;
-      margin-bottom: 200px;
-  }
-  
-  aside {
-      padding-right: 30px;
-      background: #333333;
-      grid-area: n;
-      height: 100%;
-  }
-  
-  figure {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  
-  nav {
-      display: flex;
-      color: #fff;
-      text-decoration: none;
-      padding-top: 50px;
-      line-height: 200%;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav li {
-      list-style: none;
-      font-size: 14px;
-      font-weight: 600;
-      text-transform: uppercase;
-      padding: 16px 0 16px 20px;
-  }
-  
-  nav .selected {
-      background-color: var(--bullet-color);
-  }
 
 /* Principal */
 .section {
@@ -306,6 +250,10 @@ header {
 .five {
     background-color: #333333;
     padding: 30px;
+}
+
+.six {
+    background-color: #fff;
 }
 
 /*Graficos*/
@@ -764,7 +712,6 @@ padding: 0 14PX 0 14PX;
     /*Vetores*/
     .vetor{
         width: 100%;
-        height: 8%;
         text-align: center;
     }
     .box-flex p{
@@ -777,7 +724,6 @@ padding: 0 14PX 0 14PX;
     .analise{
         float: left;
         width: 100%;
-        height: 4%;
         padding: 40px;
     }
 
@@ -799,6 +745,7 @@ padding: 0 14PX 0 14PX;
         display: flex;
         text-align: center;
         flex-direction: column;
+        padding-bottom: unset;
     }
     .jcc{
         align-self: center;
@@ -810,17 +757,7 @@ padding: 0 14PX 0 14PX;
     }
 
     /*header Respondivo*/
-    .cabecalho {
-        display:flex;
-        gap: 20px;
-        align-items: center;
-        background-color: #515151;
-        padding: 10px;
-        width: 80%;
-        height: 72%;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-    }
+   
     
     .box-cabecalho {
         display: flex;
