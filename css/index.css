@@ -1,5 +1,3 @@
-
-
 /* Principal */
 .section {
     background-color: #EFEFEF;
@@ -43,6 +41,10 @@
 
 .infinito-score {
     content: var(--infinito-score);
+    width: 400px;
+}
+.mr70{
+    margin-right: 70px;
 }
 
 .score-level-section-one {
@@ -57,6 +59,7 @@
     display: flex;
     justify-content: center;
     padding: 0 40px 0 40px;
+    align-items: center;
 }
 
 .score-section-one {
@@ -157,7 +160,7 @@
     font-size: 20PX;
     padding-bottom: 16px;
     font-weight: 700;
-    width: 82%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
 
@@ -241,6 +244,8 @@
 
 .two {
     background-color: #CECBCB;
+    display: flex;
+    justify-content: center;
 }
 
 .three {
@@ -254,10 +259,34 @@
 
 .six {
     background-color: #fff;
+    display: flex;
+    gap: 40px;
+}
+.seven{
+    background-color: #fff;
+    display: flex;
+    gap: 40px;
+}
+
+.duvidas{
+    width: 49%;
+}
+.box-low{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.innopedia{
+    content: var(--innpedia);
+}
+.box-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*Graficos*/
-
 
 .third-header h2 {
     font-size: 30PX;
@@ -280,10 +309,6 @@
 
 .h410 {
     height: 410px;
-}
-
-.h180 {
-    height: 180px;
 }
 
 .w488 {
@@ -386,6 +411,9 @@
 .fcb {
     color: #000;
 }
+.space{
+    gap: 7px;
+}
 
 .bb-top {
     background-color: #DDDBDB;
@@ -442,7 +470,7 @@
 }
 
 .meia-pizza {
-padding: 0 14PX 0 14PX;
+    padding: 0 14PX 0 14PX;
 }
 
 .score-meia-pizza {
@@ -555,6 +583,11 @@ padding: 0 14PX 0 14PX;
   display: flex;
   flex-wrap: wrap;
 }
+.container-low{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .three-col>div {
   flex-grow: 1;
@@ -601,7 +634,7 @@ padding: 0 14PX 0 14PX;
 
 .text-section-five p {
     color: #fff;
-    font-size: 1rem;
+    font-size: 14px;
     text-transform: none;
     padding: 3px 0 0 0;
 }
@@ -610,15 +643,7 @@ padding: 0 14PX 0 14PX;
     border-right: 1px solid #999999;
 }
 
-.fl-left {
-    float: left;
-    width: 48%;
-}
 
-.fl-right {
-    float: right;
-    width: 48%;
-}
 
 .data {
     content: var(--data);
@@ -641,6 +666,19 @@ padding: 0 14PX 0 14PX;
     border: unset !important;
     box-shadow: unset !important;
 }
+.analise{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.confi{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
 
 @media screen and (max-width: 1200px){
     .text-flex{
@@ -660,10 +698,11 @@ padding: 0 14PX 0 14PX;
         align-self: center;
         
     }
+    
     .second-header{
         display: flex;
         flex-direction: column;
-        
+        align-items: center;
     }
     .flex{
         flex-direction: column;
@@ -705,8 +744,10 @@ padding: 0 14PX 0 14PX;
 
     /*Duvidas*/
     .duvidas{
-        float: left;
         width: 100%;
+    }
+    .innopedia{
+        width: 200px;
     }
 
     /*Vetores*/
@@ -714,26 +755,33 @@ padding: 0 14PX 0 14PX;
         width: 100%;
         text-align: center;
     }
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
     .box-flex p{
         display: flex;
         justify-content: center;
         margin-left: 30px;
     }
+    .h410{
+        height: 100%;
+    }
 
     /*Analise*/
     .analise{
-        float: left;
         width: 100%;
-        padding: 40px;
+        padding: 30px;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
     }
 
     /*Confiabilidade*/
     .confi{
-        float: right;
         width: 100%;
-        height: 300px;
-        padding: 40px;
-        margin-top: 50px;
+        padding: 30px;
     }
     
     /*Recomendações*/
@@ -745,7 +793,7 @@ padding: 0 14PX 0 14PX;
         display: flex;
         text-align: center;
         flex-direction: column;
-        padding-bottom: unset;
+        padding-bottom: 20px;
     }
     .jcc{
         align-self: center;

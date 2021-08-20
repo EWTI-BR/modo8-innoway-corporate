@@ -18,9 +18,10 @@
     --logo: url(../img/innoway-logo-own.svg);
     --lupa: url(../img/lupa-own.svg);
     --innovation-title: url(../img/innovation-title-own.svg);
-    --infinito-score: url(../img/infinito-score-full2-own.svg);
+    --infinito-score: url(../img/infinito-score-full-own.svg);
     --increasing: url(../img/increasing-own.svg);
     --data: url(../img/data-own.svg);
+    --innpedia: url(../img/innopedia.svg);
     --grafico-white-81: url(../graficos/meia_pizza/81m.svg);
     --grafico-81: url(../graficos/meia_pizza_branco/81n.svg);
     --barra-grafica: url(../graficos/Barras/barras_ACATE_cinza@2x.png);
@@ -48,7 +49,7 @@
     --logo: url(../img/innoway-logo-partner.svg);
     --lupa: url(../img/lupa-partner.svg);
     --innovation-title: url(../img/innovation-title-partner.svg);
-    --infinito-score: url(../img/infinito-score-full2-own.svg);
+    --infinito-score: url(../img/infinito-score-full-own.svg);
     --increasing: url(../img/increasing-partner.svg);
     --data: url(../img/data-partner.svg);
     --innpedia: url(../img/innopedia.svg);
@@ -89,7 +90,6 @@ a {
 
 main {
     margin-top: 50px;
-    margin-bottom: 200px;
 }
 header {
     overflow: hidden;
@@ -371,9 +371,9 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .bt-detalhes {
+    display: flex;
     font-size: 12px;
     line-height: 38px;
-    font-weight: 600;
     height: 40px;
     justify-content: center;  
     align-items: center;
@@ -499,9 +499,6 @@ input[type="text"]::-webkit-input-placeholder {
         gap: 20px;
         padding-top: 20px;
 
-    }
-    .bt-detalhes{
-        display: none;
     }
 
 }
