@@ -157,7 +157,6 @@ nav .selected {
     padding-left: 240px;
     z-index: 0;
 }
-
 .logo {
     content: var(--logo);
     padding-left: var(--lg-pad-left);

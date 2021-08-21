@@ -1,3 +1,7 @@
+.one{
+    border-radius: 20px;
+    
+}
 .container-intro{
     display: flex;
     align-items: baseline;
@@ -19,28 +23,55 @@
 }
 .grafico-81{
     content: var(--grafico-white-81);
-    width: 200px;
-    margin-left: 18px;
+    width: 274.493px;
+    height: 149.295px;
+    margin-left: px;
 }
-
 .one{
     background-color: rgba(51,51,51,1);
+    color: white;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.intro-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.two{
+    background-color: rgba(229,229,229,1);
+    border-radius: 20px;
     color: white;
     padding: 30px;
 }
 .container-text{
     gap: 100px;
+    display: flex;
+    align-items: stretch;
+    margin: 0px;
 }
 .section-text{
-    text-align: justify;
+    text-align: start;
+    margin: 30px;
+}
+.background-grafics{
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .title-text-section-one{
     font-weight: bold;
+    padding-bottom: 20px;
     color: var(--pessoas-font-color);
 }
 .title-grafics{
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 25px;
     text-align: center;
 }
 .section-box{
@@ -61,14 +92,20 @@
     font-size: 1rem;
     font-weight: bold;
 }
+.center-back{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
 .space-title{
     display: flex;
-    margin-left: 0%;
+    margin-bottom: 20px;
     align-items: baseline;
     justify-content: space-between;
 }
 .content-text{
     margin-top: -70px;
+    font-size: 14px;
 }
 
 .externo {
@@ -117,14 +154,15 @@
 .container-progress{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 100px;
     color: black;
+    align-items: center;
     font-weight: bold;
     background-color: rgba(239,239,239,1);
-    border-radius: 20px 0 20px 0 20px;
+    border-radius: 20px;
 }
 .progress-one{
     display: flex;
@@ -206,8 +244,5 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-    }
-    .bt-detalhes{
-        display: none;
     }
 }
