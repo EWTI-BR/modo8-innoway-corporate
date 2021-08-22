@@ -69,7 +69,43 @@ a {
 
 .one{
     border-radius: 20px;
-    background-color: rgba(229,229,229,1);
+    background-color: #EFEFEF;
+    margin-bottom: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.two{
+    border-radius: 20px;
+    background-color: #EFEFEF;
+    margin-bottom: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.three{
+    border-radius: 20px;
+    background-color: #EFEFEF;
+    margin-bottom: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.four{
+    border-radius: 20px;
+    background-color: #EFEFEF;
+    margin-bottom: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.five{
+    border-radius: 20px;
+    background-color: #EFEFEF;
     margin-bottom: 30px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -162,7 +198,7 @@ a {
 
 }
 progress{
-    font-size: 1rem;
+    font-size: 14px;
     border-radius: 50px;
 }
 .grafico-75{
@@ -200,9 +236,7 @@ progress{
     background-color: yellow;
 }
 
-.two {
-    background-color: #EFEFEF;
-}
+
 
 .externo {
     display: flex;

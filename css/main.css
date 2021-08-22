@@ -20,8 +20,10 @@
     --innovation-title: url(../img/innovation-title-own.svg);
     --infinito-score: url(../img/infinito-score-full-own.svg);
     --increasing: url(../img/increasing-own.svg);
+    --grafico-coletivo: url(../img/grafico-coletivo.svg);
     --data: url(../img/data-own.svg);
     --innpedia: url(../img/innopedia.svg);
+    --logo-name: url(../img/logo-name.jpeg);
     --grafico-white-81: url(../graficos/meia_pizza/81m.svg);
     --grafico-81: url(../graficos/meia_pizza_branco/81n.svg);
     --barra-grafica: url(../graficos/Barras/barras_ACATE_cinza@2x.png);
@@ -247,7 +249,7 @@ nav .selected {
 }
 
 .innovation-cabecalho p {
-    font-size: 16px;
+    font-size: 15px;
     color: var(--primary-font-color);
     text-transform: uppercase;
     padding: 3px 0 0 0;
@@ -257,7 +259,7 @@ nav .selected {
 .score-cabecalho {
     color: var(--primary-font-color);
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 29px;
     font-weight: 700;
     padding: 14px 10px 6px 28px !important;
     line-height: 60%

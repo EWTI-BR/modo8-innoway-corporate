@@ -12,503 +12,507 @@
 
 <body class="own-report">
     <div class="container">
-        <div class="row">
-            <div class="col-menu">
-                <input type="checkbox" id="check">
-                <label for="check">
-                    <img id="btn" src="img/menu.png">
-                    <aside id="aside">
-                        <div class="roller-bar" id="navbar">
-                            <figure class="logo"></figure>
-                            <nav>
+        <div class="col-menu">
+            <input type="checkbox" id="check">
+            <label for="check">
+                <img id="btn" src="img/menu.png">
+            </label>
+
+            <aside id="aside">
+                <div class="roller-bar" id="navbar">
+                    <figure class="logo"></figure>
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html">resultados</a></li>
+                            <li><a href="./recomendação.html">recomendações</a></li>
+                            <li><a href="./pessoas.html">pessoas</a></li>
+                            <ul>
+                                <li class="second-level"><a href="./intra.html">intraempreendedorismo</a></li>
+                                <li class="second-level"><a href="./adaptabilidade.html">adaptabilidade</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="./dna.html">dna para inovação</a></li>
+                            <li class="selected"><a href="./flow.html">flow de inovação</a></li>
+                            <ul>
+                                <li class="second-level"><a href="./estrategia.html">estratégia & liderança</a>
+                                </li>
+                                <li class="second-level"><a href="./inteligencia.html">inteligência &
+                                        ideação</a></li>
+                                <li class="second-level"><a href="./desenvolvimento.html">desenvolvimento &
+                                        gestão</a></li>
+                                <li class="second-level"><a href="./resultados.html">resultado & impacto</a>
+                                </li>
+                            </ul>
+                            </li>
+                            <li><a href="./vetores.html">vetores de inovação</a></li>
+                            <li><a href=".">análise e benchmark</a>
                                 <ul>
-                                    <li><a href="./index.html">resultados</a></li>
-                                    <li><a href="./recomendação.html">recomendações</a></li>
-                                    <li><a href="./pessoas.html">pessoas</a></li>
-                                    <ul>
-                                        <li class="second-level"><a href="./intra.html">intraempreendedorismo</a></li>
-                                        <li class="second-level"><a href="./adaptabilidade.html">adaptabilidade</a></li>
-                                    </ul>
-                                    </li>
-                                    <li><a href="./dna.html">dna para inovação</a></li>
-                                    <li class="selected"><a href="./flow.html">flow de inovação</a></li>
-                                    <ul>
-                                        <li class="second-level"><a href="./estrategia.html">estratégia & liderança</a>
-                                        </li>
-                                        <li class="second-level"><a href="./inteligencia.html">inteligência &
-                                                ideação</a></li>
-                                        <li class="second-level"><a href="./desenvolvimento.html">desenvolvimento &
-                                                gestão</a></li>
-                                        <li class="second-level"><a href="./resultados.html">resultado & impacto</a>
-                                        </li>
-                                    </ul>
-                                    </li>
-                                    <li><a href="./vetores.html">vetores de inovação</a></li>
-                                    <li><a href=".">análise e benchmark</a>
-                                        <ul>
-                                            <li class="second-level"><a href="">Innoway <span class="em-breve">(em
-                                                        breve)</span></a></li>
-                                            <li class="second-level"><a href="#">Setorial <span class="em-breve">(em
-                                                        breve)</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="./innopedia.html">innopedia</a></li>
-                                    <li><a href="./demografia.html">demográficos</a></li>
-                                    <li><a href="./pesquisa.html">confiabilidade & metodologia</a></li>
-                                    <li><a href="#">downloads</a></li>
+                                    <li class="second-level"><a href="">Innoway <span class="em-breve">(em
+                                                breve)</span></a></li>
+                                    <li class="second-level"><a href="#">Setorial <span class="em-breve">(em
+                                                breve)</span></a></li>
                                 </ul>
-                            </nav>
+                            </li>
+                            <li><a href="./innopedia.html">innopedia</a></li>
+                            <li><a href="./demografia.html">demográficos</a></li>
+                            <li><a href="./pesquisa.html">confiabilidade & metodologia</a></li>
+                            <li><a href="#">downloads</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+        </div>
+
+        <div class="col-conteudo">
+            <header id="header">
+                <div class="cabecalho">
+                    <div>
+                        <img src="img/company-logo.svg">
+                    </div>
+                    <div class="box-cabecalho">
+                        <div class="innovation-cabecalho">
+                            <span>Innovation Power</span>
+                            <p>avançado</p>
                         </div>
-                    </aside>
-            </div>
-            <div class="col-md-12 col-conteudo">
-                <div class="row">
-
-                    <header id="header">
-                        <div class="cabecalho">
-                            <div>
-                                <img src="img/company-logo.svg">
-                            </div>
-                            <div class="box-cabecalho">
-                                <div class="innovation-cabecalho">
-                                    <span>Innovation Power</span>
-                                    <p>avançado</p>
-                                </div>
-                                <div class="score-cabecalho">
-                                    <span>75</span>
-                                    <p>score</p>
-                                </div>
-                            </div>
-                            <div class="box-cabecalho">
-                                <div class="pessoas-cabecalho">
-                                    <span>pessoas</span><span>77%</span>
-                                </div>
-                                <div class="flow-cabecalho">
-                                    <span>flow de inovação</span><span>64%</span>
-                                </div>
-                            </div>
-                            <div>
-                                <img onclick="javascript:changeOwner();" src="img/logout.svg" alt="">
-                            </div>
+                        <div class="score-cabecalho">
+                            <span>75</span>
+                            <p>score</p>
                         </div>
-                        <div class="busca">
-                            <input class="field-busca" type="text" placeholder="Pesquisar Innopedia">
-                            <button class="lupa"></button>
+                    </div>
+                    <div class="box-cabecalho">
+                        <div class="pessoas-cabecalho">
+                            <span>pessoas</span><span>77%</span>
                         </div>
-                    </header>
-                    <main>
-                        <section>
-                            <div class="container-intro">
-                                <div>
-                                    <p class="title-reco">FLOW DE INOVAÇÃO</p>
-                                </div>
-                                <div>
-                                    <button class="bt-voltar"><img class="back" src="./img/back.png">Voltar</button>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="one">
-                            <article>
-                                <div class="background-grafics">
-                                    <div class="grafics">
-                                        <img src="./graficos/pizza/64.svg" alt="Grafico 77%">
-                                    </div>
-                                    <div class="container-text">
-                                        <div>
-                                            <p class="title-text-section">APRENDIZADO</p>
-                                            <strong>A Acate possui forte direcionamento estratégico,
-                                                sintonia com o propósito e domínio conceitual
-                                                adequado sobre os pilares do Flow de Inovação.
-                                            </strong>A grande oportunidade é fechar o gap entre as estratégias e a
-                                            capacidade de execução da inovação. Essa evolução passa pela
-                                            integração das diferentes áreas e seus colaboradores ao redor de um
-                                            plano e de uma governança de inovação mais claros e estruturados,
-                                            bem como pelo engajamento das pessoas com a ousadia e a
-                                            flexibilização na exploração de inovações e modelos de negócios
-                                            disruptivos, e competitivos frente a concorrência.</p>
-                                        </div>
-                                    </div>
-                            </article>
-                        </section>
-                        <section class="one two">
-                            <article>
-                                <div class="head-section">
-                                    <p class="titulo"><strong>ESTRATÉGIA & LIDERANÇA
-                                        </strong></p>
-                                    <p class="subtitulo">INTERMEDIÁRIO64</p>
-                                </div>
+                        <div class="flow-cabecalho">
+                            <span>flow de inovação</span><span>64%</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img onclick="javascript:changeOwner();" src="img/logout.svg" alt="">
+                    </div>
+                </div>
+                <div class="busca">
+                    <input class="field-busca" type="text" placeholder="Pesquisar Innopedia">
+                    <button class="lupa"></button>
+                </div>
+            </header>
 
-                                <div class="outer">
-                                    <div>
-                                        <img src="graficos/meia_pizza_branco/68n.svg" width="320">
-                                    </div>
-                                    <div class="grupo-barras">
-                                        <div class="externo">
-                                            <div class="competencia">
-                                                ESTRATÉGIA<br>
-                                                CORPORATIVA
-                                            </div>
-                                            <div class="chart">
-                                                <div style="width:69%" class="yellow start"></div>
-                                            </div>
-                                            <div class="competencia2">
-                                                69%
-                                            </div>
-                                        </div>
-
-                                        <div class="externo">
-                                            <div class="competencia">
-                                                ESTRATÉGIAS DE<br>
-                                                INOVAÇÃO
-                                            </div>
-                                            <div class="chart">
-                                                <div style="width:67%" class="yellow start"></div>
-                                            </div>
-                                            <div class="competencia2">
-                                                67%
-                                            </div>
-                                        </div>
-
-                                        <div class="externo">
-                                            <div class="competencia">
-                                                TRANSFORMAÇÃO<br>
-                                                DIGITAL
-                                            </div>
-                                            <div class="chart">
-                                                <div style="width:67%" class="yellow start"></div>
-                                            </div>
-                                            <div class="competencia2">
-                                                67%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="container-text">
-                                    <p>
-                                        <strong>Estratégia Corporativa & ESG​</strong>
-                                        <br>Os objetivos e estratégias de inovação estão em sintonia com o propósito da
-                                        organização, porém a agilidade em
-                                        flexibilizar estratégias para adaptar-se às mudanças de mercado pode ser maior.
-                                        Embora exista governança e
-                                        transparência, o impacto socioambiental (ESG) precisa ser melhor trabalhado e/ou
-                                        comunicado.
-                                    </p>
-                                    <p>
-                                        <strong>Liderança & Estratégia de Inovação​</strong>
-                                        <br>Está comprometida em incentivar a criatividade, a troca de experiências e
-                                        informações que contribuam para a
-                                        inovação, mas falta maior clareza do que se espera de cada área. Ajudar os
-                                        colaboradores a compreender melhor o
-                                        conceito de inovação adotado pela organização e estruturar um plano de inovação
-                                        interno, a partir das
-                                        expectativas das lideranças, engajarão as pessoas para superar desafios e
-                                        trabalhar oportunidades com mais
-                                        ousadia. Renovar, diversificar e melhorar continuamente produtos e serviços é
-                                        uma característica positiva, mas
-                                        não suficiente para estar à frente de outros players
-                                    </p>
-                                    <p>
-                                        <strong>Modelos de Negócio</strong>
-                                        <br>Existem abordagens criativas sobre os modelos de negócio que buscam
-                                        relevância e otimização de receitas,
-                                        principalmente com modelos adjacentes, mas ainda não explora bem modelos
-                                        disruptivos. ​
-                                    </p>
-                                    <p>
-                                        <strong>Transformação Digital​</strong>
-                                        <br>A transformação digital acontece, mas há fatores tecnológicos e culturais a
-                                        serem amadurecidos.
-                                    </p>
-                                </div>
-                                <div class="align-center pd-bt-44">
-                                    <button class="bt-detalhes">VER EM DETALHES</button>
-                                </div>
-                            </article>
-                        </section>
-                        <section class="one two">
-                            <article>
-                                <div class="head-section">
-                                    <p class="titulo"><strong>INTELIGÊNCIA & IDEAÇÃO
-                                        </strong></p>
-                                    <p class="subtitulo">INTERMEDIÁRIO</p>
-                                </div>
-
-                                <div class="outer">
-                                    <div>
-                                        <img src="graficos/meia_pizza_branco/64n.svg" width="320">
-                                    </div>
-                                    <div class="grupo-barras">
-
-                                        <div class="externo">
-                                            <div class="competencia">
-                                                INTELIGÊNCIA<br>
-                                                PARA INOVAÇÃO
-                                            </div>
-                                            <div class="chart">
-                                                <div style="width:64%" class="yellow start"></div>
-                                            </div>
-                                            <div class="competencia2">
-                                                64%
-                                            </div>
-                                        </div>
-
-                                        <div class="externo">
-                                            <div class="competencia">
-                                                P&D
-                                            </div>
-                                            <div class="chart">
-                                                <div style="width:79%" class="red start"></div>
-                                            </div>
-                                            <div class="competencia2">
-                                                68%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="container-text">
-                                    <p>
-                                        <strong>Inteligência para Inovação​</strong>
-                                        <br>
-                                        Embora utilize KPIs adequados para as inovações, nem todas as iniciativas estão
-                                        atreladas aos objetivos
-                                        financeiros. Pode aplicar melhor o uso de ferramentas de insights/aprendizado
-                                        externos para inovação, como
-                                        Design Thinking e Trend Hunting para dar suporte às ideias mais ousadas. ​
-                                        ​
-                                    </p>
-                                    <p>
-                                        <strong>Data-Driven​</strong>
-                                        <br>
-                                        Compreende que os dados podem gerar valor para a empresa e está descobrindo como
-                                        utilizá-los de forma
-                                        estruturada e eficiente. Ter especialistas ou uma área dedicada à gestão dos
-                                        dados, pode agilizar a evolução de
-                                        uma cultura data driven de alta performance. ​
-                                    </p>
-                                    <p>
-                                        <strong>P&D​</strong>
-                                        <br>
-                                        Pesquisa & Desenvolvimento (P&D) tem grande influência sobre a estratégia de
-                                        inovação da empresa, mesmo
-                                        sem ter um processo próprio e bem estruturado para esse fim.
-                                    </p>
-                                </div>
-                                <div class="align-center pd-bt-44">
-                                    <button class="bt-detalhes">VER EM DETALHES</button>
-                                </div>
-                            </article>
-                        </section>
-                        <section class="one two">
-                            <article>
-                                <div class="head-section">
-                                    <p class="titulo"><strong>DESENVOLVIMENTO & GESTÃO
-                                        </strong></p>
-                                    <p class="subtitulo">INTERMEDIÁRIO</p>
-                                </div>
-                                <div class="outer">
-                                    <div>
-                                        <img src="graficos/meia_pizza_branco/60n.svg" width="320">
-                                    </div>
-                                    <div class="grupo-barras">
-                                        <div class="externo">
-                                            <div class="competencia">
-                                                GOVERNANÇA
-                                            </div>
-                                            <div class="chart">
-                                                <div style="width:60%" class="yellow start"></div>
-                                            </div>
-                                            <div class="competencia2">
-                                                69%
-                                            </div>
-                                        </div>
-
-                                        <div class="externo">
-                                            <div class="competencia">
-                                                GOVERNANÇA &<br>
-                                                EXECUÇÃO
-                                            </div>
-                                            <div class="chart">
-                                                <div style="width:53%" class="yellow start"></div>
-                                            </div>
-                                            <div class="competencia2">
-                                                53%
-                                            </div>
-                                        </div>
-
-                                        <div class="externo">
-                                            <div class="competencia">
-                                                TEST & LEARN
-                                            </div>
-                                            <div class="chart">
-                                                <div style="width:70%" class="yellow start"></div>
-                                            </div>
-                                            <div class="competencia2">
-                                                70%
-                                            </div>
-                                        </div>
-
-                                        <div class="externo">
-                                            <div class="competencia">
-                                                INOVAÇÃO ABERTA
-                                            </div>
-                                            <div class="chart">
-                                                <div style="width:75%" class="red  start"></div>
-                                            </div>
-                                            <div class="competencia2">
-                                                75%
-                                            </div>
-                                        </div>
-
-                                        <div class="externo">
-                                            <div class="competencia">
-                                                DESENVOLVIMENTO<br>
-                                                TECNOLÓGICO
-                                            </div>
-                                            <div class="chart">
-                                                <div style="width:59%" class="yellow start"></div>
-                                            </div>
-                                            <div class="competencia2">
-                                                59%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="container-text">
-                                    <p>
-                                        <strong>Governança & Gestão​</strong>
-                                        <br>
-                                        A organização possui colaboradores com perfil e competências necessárias para
-                                        inovar, porém com pouco poder de
-                                        ação e influência para tomada de decisões. A governança busca engajar os times
-                                        internos, mas nem todos os
-                                        departamentos colaboram para o sucesso da inovação. Os processos e etapas que
-                                        compõem o funil de inovação,
-                                        podem ser aperfeiçoados e sistematizados, gerando mais clareza, controle e foco
-                                        na criação de valor aos associados. ​
-                                    </p>
-                                    <p>
-                                        <strong>Prototipagem & Desenvolvimento de tecnologias​
-                                        </strong>
-                                        <br>​
-                                        A organização reconhece e valoriza a agilidade e a capacidade de aprendizado por
-                                        meio da prototipagem, mas o
-                                        Test & Learn não é uma prática estruturada. Existem iniciativas para implementar
-                                        tecnologias, porém estas são
-                                        avaliadas como comuns no mercado, ou seja, não representam um novo patamar
-                                        inovador. Não existe esforço
-                                        dirigido para o desenvolvimento de novas tecnologias e pouco monitoramento das
-                                        tecnologias emergentes. ​
-                                    </p>
-                                    <p>
-                                        <strong>Inovação Aberta​</strong>
-                                        <br>
-                                        As startups são componentes importantes da inovação da organização e geram
-                                        impacto positivo por meio de um
-                                        programa de aprendizado. Investigar novas oportunidades de mercado, criando
-                                        protótipos junto com as startups,
-                                        pode ser melhor explorado.
-                                    </p>
-                                </div>
-                                <div class="align-center pd-bt-44">
-                                    <button class="bt-detalhes">VER EM DETALHES</button>
-                                </div>
-                            </article>
-                        </section>
-                        <section class="one two">
-                            <article>
-                                <div class="head-section">
-                                    <p class="titulo"><strong>RESULTADO & IMPACTO
-                                        </strong></p>
-                                    <p class="subtitulo">INTERMEDIÁRIO</p>
-                                </div>
-
-                                <div class="outer">
-                                    <div>
-                                        <img src="graficos/meia_pizza_branco/64n.svg" width="320">
-                                    </div>
-                                    <div class="grupo-barras">
-
-                                        <div class="externo">
-                                            <div class="competencia">
-                                                AMPLITUDE<br>
-                                                COMPETITIVA<br>
-                                                & IMPACTO
-                                            </div>
-                                            <div class="chart">
-                                                <div style="width:63%" class="yellow start"></div>
-                                            </div>
-                                            <div class="competencia2">
-                                                63%
-                                            </div>
-                                        </div>
-
-                                        <div class="externo">
-                                            <div class="competencia">
-                                                MODELOS DE<br>
-                                                NEGÓCIO69
-                                            </div>
-                                            <div class="chart">
-                                                <div style="width:69%" class="yellow start"></div>
-                                            </div>
-                                            <div class="competencia2">
-                                                69%
-                                            </div>
-                                        </div>
-
-                                        <div class="externo">
-                                            <div class="competencia">
-                                                DESTREZA DIGITAL
-                                            </div>
-                                            <div class="chart">
-                                                <div style="width:61%" class="yellow start"></div>
-                                            </div>
-                                            <div class="competencia2">
-                                                61%
-                                            </div>
-                                        </div>
-
-                                        <div class="externo">
-                                            <div class="competencia">
-                                                ESG IMPACTO
-                                            </div>
-                                            <div class="chart">
-                                                <div style="width:74%" class="red start"></div>
-                                            </div>
-                                            <div class="competencia2">
-                                                74%
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="container-text">
-                                    <p>
-                                        <strong>A organização é reconhecida como inovadora, mas as inovações comercias
-                                            precisam evoluir
-                                            para colocá-los à frente de outros ecossistemas.
-                                        </strong>
-                                        <br>
-                                        É importante evoluir a capacidade de criar vantagem competitiva por meio de
-                                        tecnologias proprietárias e digitais
-                                        capazes de gerar dados de alto valor para o negócio. A organização está
-                                        comprometida em gerar benefícios para
-                                        as comunidades, mas para obter um ESG de impacto, é essencial buscar por
-                                        benefícios socioambientais que
-                                        gerem resultados práticos e concretos.​​
-                                    </p>
-                                </div>
-                                <div class="align-center pd-bt-44">
-                                    <button class="bt-detalhes">VER EM DETALHES</button>
-                                </div>
-                            </article>
-                        </section>
-                        <div class="center-back">
+            <main>
+                <section>
+                    <div class="container-intro">
+                        <div>
+                            <p class="title-reco">FLOW DE INOVAÇÃO</p>
+                        </div>
+                        <div>
                             <button class="bt-voltar"><img class="back" src="./img/back.png">Voltar</button>
                         </div>
-                    </main>
+                    </div>
+                </section>
+                <section class="section one">
+                    <article>
+                        <div class="background-grafics">
+                            <div class="grafics">
+                                <img src="./graficos/pizza/64.svg" alt="Grafico 77%">
+                            </div>
+                            <div class="container-text">
+                                <div>
+                                    <p class="title-text-section">APRENDIZADO</p>
+                                    <strong>A Acate possui forte direcionamento estratégico,
+                                        sintonia com o propósito e domínio conceitual
+                                        adequado sobre os pilares do Flow de Inovação.
+                                    </strong>A grande oportunidade é fechar o gap entre as estratégias e a
+                                    capacidade de execução da inovação. Essa evolução passa pela
+                                    integração das diferentes áreas e seus colaboradores ao redor de um
+                                    plano e de uma governança de inovação mais claros e estruturados,
+                                    bem como pelo engajamento das pessoas com a ousadia e a
+                                    flexibilização na exploração de inovações e modelos de negócios
+                                    disruptivos, e competitivos frente a concorrência.</p>
+                                </div>
+                            </div>
+                    </article>
+                </section>
+
+                <section class="section two">
+                    <article>
+                        <div class="head-section">
+                            <p class="titulo"><strong>ESTRATÉGIA & LIDERANÇA
+                                </strong></p>
+                            <p class="subtitulo">INTERMEDIÁRIO64</p>
+                        </div>
+
+                        <div class="outer">
+                            <div>
+                                <img src="graficos/meia_pizza_branco/68n.svg" width="320">
+                            </div>
+                            <div class="grupo-barras">
+                                <div class="externo">
+                                    <div class="competencia">
+                                        ESTRATÉGIA<br>
+                                        CORPORATIVA
+                                    </div>
+                                    <div class="chart">
+                                        <div style="width:69%" class="yellow start"></div>
+                                    </div>
+                                    <div class="competencia2">
+                                        69%
+                                    </div>
+                                </div>
+
+                                <div class="externo">
+                                    <div class="competencia">
+                                        ESTRATÉGIAS DE<br>
+                                        INOVAÇÃO
+                                    </div>
+                                    <div class="chart">
+                                        <div style="width:67%" class="yellow start"></div>
+                                    </div>
+                                    <div class="competencia2">
+                                        67%
+                                    </div>
+                                </div>
+
+                                <div class="externo">
+                                    <div class="competencia">
+                                        TRANSFORMAÇÃO<br>
+                                        DIGITAL
+                                    </div>
+                                    <div class="chart">
+                                        <div style="width:67%" class="yellow start"></div>
+                                    </div>
+                                    <div class="competencia2">
+                                        67%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-text">
+                            <p>
+                                <strong>Estratégia Corporativa & ESG​</strong>
+                                <br>Os objetivos e estratégias de inovação estão em sintonia com o propósito da
+                                organização, porém a agilidade em
+                                flexibilizar estratégias para adaptar-se às mudanças de mercado pode ser maior.
+                                Embora exista governança e
+                                transparência, o impacto socioambiental (ESG) precisa ser melhor trabalhado e/ou
+                                comunicado.
+                            </p>
+                            <p>
+                                <strong>Liderança & Estratégia de Inovação​</strong>
+                                <br>Está comprometida em incentivar a criatividade, a troca de experiências e
+                                informações que contribuam para a
+                                inovação, mas falta maior clareza do que se espera de cada área. Ajudar os
+                                colaboradores a compreender melhor o
+                                conceito de inovação adotado pela organização e estruturar um plano de inovação
+                                interno, a partir das
+                                expectativas das lideranças, engajarão as pessoas para superar desafios e
+                                trabalhar oportunidades com mais
+                                ousadia. Renovar, diversificar e melhorar continuamente produtos e serviços é
+                                uma característica positiva, mas
+                                não suficiente para estar à frente de outros players
+                            </p>
+                            <p>
+                                <strong>Modelos de Negócio</strong>
+                                <br>Existem abordagens criativas sobre os modelos de negócio que buscam
+                                relevância e otimização de receitas,
+                                principalmente com modelos adjacentes, mas ainda não explora bem modelos
+                                disruptivos. ​
+                            </p>
+                            <p>
+                                <strong>Transformação Digital​</strong>
+                                <br>A transformação digital acontece, mas há fatores tecnológicos e culturais a
+                                serem amadurecidos.
+                            </p>
+                        </div>
+                        <div class="align-center pd-bt-44">
+                            <button class="bt-detalhes">VER EM DETALHES</button>
+                        </div>
+                    </article>
+                </section>
+
+                <section class="section three">
+                    <article>
+                        <div class="head-section">
+                            <p class="titulo"><strong>INTELIGÊNCIA & IDEAÇÃO
+                                </strong></p>
+                            <p class="subtitulo">INTERMEDIÁRIO</p>
+                        </div>
+
+                        <div class="outer">
+                            <div>
+                                <img src="graficos/meia_pizza_branco/64n.svg" width="320">
+                            </div>
+                            <div class="grupo-barras">
+
+                                <div class="externo">
+                                    <div class="competencia">
+                                        INTELIGÊNCIA<br>
+                                        PARA INOVAÇÃO
+                                    </div>
+                                    <div class="chart">
+                                        <div style="width:64%" class="yellow start"></div>
+                                    </div>
+                                    <div class="competencia2">
+                                        64%
+                                    </div>
+                                </div>
+
+                                <div class="externo">
+                                    <div class="competencia">
+                                        P&D
+                                    </div>
+                                    <div class="chart">
+                                        <div style="width:79%" class="red start"></div>
+                                    </div>
+                                    <div class="competencia2">
+                                        68%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-text">
+                            <p>
+                                <strong>Inteligência para Inovação​</strong>
+                                <br>
+                                Embora utilize KPIs adequados para as inovações, nem todas as iniciativas estão
+                                atreladas aos objetivos
+                                financeiros. Pode aplicar melhor o uso de ferramentas de insights/aprendizado
+                                externos para inovação, como
+                                Design Thinking e Trend Hunting para dar suporte às ideias mais ousadas. ​
+                                ​
+                            </p>
+                            <p>
+                                <strong>Data-Driven​</strong>
+                                <br>
+                                Compreende que os dados podem gerar valor para a empresa e está descobrindo como
+                                utilizá-los de forma
+                                estruturada e eficiente. Ter especialistas ou uma área dedicada à gestão dos
+                                dados, pode agilizar a evolução de
+                                uma cultura data driven de alta performance. ​
+                            </p>
+                            <p>
+                                <strong>P&D​</strong>
+                                <br>
+                                Pesquisa & Desenvolvimento (P&D) tem grande influência sobre a estratégia de
+                                inovação da empresa, mesmo
+                                sem ter um processo próprio e bem estruturado para esse fim.
+                            </p>
+                        </div>
+                        <div class="align-center pd-bt-44">
+                            <button class="bt-detalhes">VER EM DETALHES</button>
+                        </div>
+                    </article>
+                </section>
+
+                <section class="section four">
+                    <article>
+                        <div class="head-section">
+                            <p class="titulo"><strong>DESENVOLVIMENTO & GESTÃO
+                                </strong></p>
+                            <p class="subtitulo">INTERMEDIÁRIO</p>
+                        </div>
+                        <div class="outer">
+                            <div>
+                                <img src="graficos/meia_pizza_branco/60n.svg" width="320">
+                            </div>
+                            <div class="grupo-barras">
+                                <div class="externo">
+                                    <div class="competencia">
+                                        GOVERNANÇA
+                                    </div>
+                                    <div class="chart">
+                                        <div style="width:60%" class="yellow start"></div>
+                                    </div>
+                                    <div class="competencia2">
+                                        69%
+                                    </div>
+                                </div>
+
+                                <div class="externo">
+                                    <div class="competencia">
+                                        GOVERNANÇA &<br>
+                                        EXECUÇÃO
+                                    </div>
+                                    <div class="chart">
+                                        <div style="width:53%" class="yellow start"></div>
+                                    </div>
+                                    <div class="competencia2">
+                                        53%
+                                    </div>
+                                </div>
+
+                                <div class="externo">
+                                    <div class="competencia">
+                                        TEST & LEARN
+                                    </div>
+                                    <div class="chart">
+                                        <div style="width:70%" class="yellow start"></div>
+                                    </div>
+                                    <div class="competencia2">
+                                        70%
+                                    </div>
+                                </div>
+
+                                <div class="externo">
+                                    <div class="competencia">
+                                        INOVAÇÃO ABERTA
+                                    </div>
+                                    <div class="chart">
+                                        <div style="width:75%" class="red  start"></div>
+                                    </div>
+                                    <div class="competencia2">
+                                        75%
+                                    </div>
+                                </div>
+
+                                <div class="externo">
+                                    <div class="competencia">
+                                        DESENVOLVIMENTO<br>
+                                        TECNOLÓGICO
+                                    </div>
+                                    <div class="chart">
+                                        <div style="width:59%" class="yellow start"></div>
+                                    </div>
+                                    <div class="competencia2">
+                                        59%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-text">
+                            <p>
+                                <strong>Governança & Gestão​</strong>
+                                <br>
+                                A organização possui colaboradores com perfil e competências necessárias para
+                                inovar, porém com pouco poder de
+                                ação e influência para tomada de decisões. A governança busca engajar os times
+                                internos, mas nem todos os
+                                departamentos colaboram para o sucesso da inovação. Os processos e etapas que
+                                compõem o funil de inovação,
+                                podem ser aperfeiçoados e sistematizados, gerando mais clareza, controle e foco
+                                na criação de valor aos associados. ​
+                            </p>
+                            <p>
+                                <strong>Prototipagem & Desenvolvimento de tecnologias​
+                                </strong>
+                                <br>​
+                                A organização reconhece e valoriza a agilidade e a capacidade de aprendizado por
+                                meio da prototipagem, mas o
+                                Test & Learn não é uma prática estruturada. Existem iniciativas para implementar
+                                tecnologias, porém estas são
+                                avaliadas como comuns no mercado, ou seja, não representam um novo patamar
+                                inovador. Não existe esforço
+                                dirigido para o desenvolvimento de novas tecnologias e pouco monitoramento das
+                                tecnologias emergentes. ​
+                            </p>
+                            <p>
+                                <strong>Inovação Aberta​</strong>
+                                <br>
+                                As startups são componentes importantes da inovação da organização e geram
+                                impacto positivo por meio de um
+                                programa de aprendizado. Investigar novas oportunidades de mercado, criando
+                                protótipos junto com as startups,
+                                pode ser melhor explorado.
+                            </p>
+                        </div>
+                        <div class="align-center pd-bt-44">
+                            <button class="bt-detalhes">VER EM DETALHES</button>
+                        </div>
+                    </article>
+                </section>
+
+                <section class="section five">
+                    <article>
+                        <div class="head-section">
+                            <p class="titulo"><strong>RESULTADO & IMPACTO
+                                </strong></p>
+                            <p class="subtitulo">INTERMEDIÁRIO</p>
+                        </div>
+
+                        <div class="outer">
+                            <div>
+                                <img src="graficos/meia_pizza_branco/64n.svg" width="320">
+                            </div>
+                            <div class="grupo-barras">
+
+                                <div class="externo">
+                                    <div class="competencia">
+                                        AMPLITUDE<br>
+                                        COMPETITIVA<br>
+                                        & IMPACTO
+                                    </div>
+                                    <div class="chart">
+                                        <div style="width:63%" class="yellow start"></div>
+                                    </div>
+                                    <div class="competencia2">
+                                        63%
+                                    </div>
+                                </div>
+
+                                <div class="externo">
+                                    <div class="competencia">
+                                        MODELOS DE<br>
+                                        NEGÓCIO69
+                                    </div>
+                                    <div class="chart">
+                                        <div style="width:69%" class="yellow start"></div>
+                                    </div>
+                                    <div class="competencia2">
+                                        69%
+                                    </div>
+                                </div>
+
+                                <div class="externo">
+                                    <div class="competencia">
+                                        DESTREZA DIGITAL
+                                    </div>
+                                    <div class="chart">
+                                        <div style="width:61%" class="yellow start"></div>
+                                    </div>
+                                    <div class="competencia2">
+                                        61%
+                                    </div>
+                                </div>
+
+                                <div class="externo">
+                                    <div class="competencia">
+                                        ESG IMPACTO
+                                    </div>
+                                    <div class="chart">
+                                        <div style="width:74%" class="red start"></div>
+                                    </div>
+                                    <div class="competencia2">
+                                        74%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-text">
+                            <p>
+                                <strong>A organização é reconhecida como inovadora, mas as inovações comercias
+                                    precisam evoluir
+                                    para colocá-los à frente de outros ecossistemas.
+                                </strong>
+                                <br>
+                                É importante evoluir a capacidade de criar vantagem competitiva por meio de
+                                tecnologias proprietárias e digitais
+                                capazes de gerar dados de alto valor para o negócio. A organização está
+                                comprometida em gerar benefícios para
+                                as comunidades, mas para obter um ESG de impacto, é essencial buscar por
+                                benefícios socioambientais que
+                                gerem resultados práticos e concretos.​​
+                            </p>
+                        </div>
+                        <div class="align-center pd-bt-44">
+                            <button class="bt-detalhes">VER EM DETALHES</button>
+                        </div>
+                    </article>
+                </section>
+                <div class="center-back">
+                    <button class="bt-voltar"><img class="back" src="./img/back.png">Voltar</button>
                 </div>
-            </div>
+            </main>
         </div>
     </div>
+    
 </body>
 <script src="js/sticky.js"></script>
 <script src="js/temp.js"></script>

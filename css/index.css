@@ -26,6 +26,7 @@
     display: flex;
     justify-content: space-around; 
     padding-top: 34px;
+    align-items: flex-end;
 }
 
 .pontuacao-content {
@@ -42,6 +43,13 @@
 .infinito-score {
     content: var(--infinito-score);
     width: 400px;
+    margin-bottom: -100px;
+}
+.grafico-coletivo{
+    content: var(--grafico-coletivo);
+}
+.logo-name{
+    content: var(--logo-name);
 }
 .mr70{
     margin-right: 70px;
@@ -60,6 +68,7 @@
     justify-content: center;
     padding: 0 40px 0 40px;
     align-items: center;
+    margin-top: 50px;
 }
 
 .score-section-one {
@@ -95,6 +104,7 @@
     color: var(--primary-font-color);
     text-transform: uppercase;
     border-bottom: 1px solid var(--bullet-color);
+    width: 500px;
     font-size: 16px;
     font-weight: 700;
     padding: 7px 0 10px 0;
@@ -113,32 +123,7 @@
     font-size: 85%;
     font-weight: 500;
     padding-top: 7px;
-}
-
-
-@media (max-width: 1200px) {
-    /*principal*/
-    .main-content {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-top: 20px;
-        margin: 40px;
-    }
-    .pontuacao-content{
-        display: flex;
-    }
-    .innovation-title{
-        width: 400px;
-        display: flex;
-    }
-    .score-level-section-one p{
-        color: var(--primary-font-color);
-        font-size: 35px;
-        font-weight: 700;
-        padding-top: 7px;
-        display: flex;
-    }
+    margin-right: 150px;
 }
 
 /*Maturidade*/
@@ -274,8 +259,8 @@
 .box-low{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
 }
 .innopedia{
     content: var(--innpedia);
@@ -549,12 +534,12 @@ padding: 0 14PX 0 14PX;
     font-size: 12px;
     font-weight: 600;
 }
-
-.header-grafico {
-    font-size: 12px;
-    padding-bottom: 5px;
+.align{
+    display: flex;
+    align-items: center;
+    margin-bottom: -32px;
+    gap: 15px;
 }
-
 
 .text-flex{
     text-align: center;
@@ -565,14 +550,14 @@ padding: 0 14PX 0 14PX;
 }
 
 .p1 {
-    left: 23.50%;
+    left: 24.80%;
 }
 .p2 {
     left: 48.10%;
 }
 
 .p3 {
-    left: 72.40%;
+    left: 71.70%;
 }
 
 .relative {
@@ -681,6 +666,35 @@ padding: 0 14PX 0 14PX;
 }
 
 @media screen and (max-width: 1200px){
+    /*principal*/
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
+        margin: 40px;
+        align-items: center;
+        gap: 20px;
+    }
+    .pontuacao-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .innovation-title{
+        width: 400px;
+        display: flex;
+    }
+    .score-level-section-one p{
+        color: var(--primary-font-color);
+        font-size: 35px;
+        font-weight: 700;
+        padding-top: 7px;
+        display: flex;
+    }
+    .logo-name{
+        width: 300px;
+    }
+
     .text-flex{
         display: inline-block;
     }
@@ -690,13 +704,26 @@ padding: 0 14PX 0 14PX;
     .ml19{
         align-self: center;
     }
+    .container-text{
+        padding: 0;
+        margin: 0;
+    }
+    .header-text-section-one{
+        width: auto;
+    }
+    .score-section-one{
+        margin-left: 0;
+    }
+    .text-section-one{
+        margin-right: 0;
+    }
+
     /*Maturidade*/
     .maturidade{
         display: flex;
         flex-direction: column;
         text-align: center;
         align-self: center;
-        
     }
     
     .second-header{
@@ -730,9 +757,11 @@ padding: 0 14PX 0 14PX;
     .bb-top{
         margin-top: 40px;
     }
+    .mtb20{
+        margin: 20px 0 20px 0;
+    }
 
     /*Recomendações*/
-
     .three-col>div {
         width: 80%;
         margin-top: 30px;
