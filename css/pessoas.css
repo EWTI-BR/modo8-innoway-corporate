@@ -44,6 +44,7 @@
   
   nav .selected {
     background-color: var(--bullet-color);
+    margin-right: -30px;
 }
 .container-intro{
     display: flex;
@@ -73,6 +74,25 @@
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+.two {
+    background-color: #EFEFEF;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;  
+}
+.three{
+    background-color: #EFEFEF;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;  
+}
+
 
 .title-text-section{
     font-size: 15px;
@@ -195,10 +215,6 @@ progress{
 }
 .yellow{
     background-color: yellow;
-}
-
-.two {
-    background-color: #EFEFEF;
 }
 
 .externo {

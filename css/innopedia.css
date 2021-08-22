@@ -1,6 +1,29 @@
+.section {
+    background-color: #EFEFEF;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.innopedia{
+    content: var(--innpedia);
+}
+.one{
+    padding: 40px;
+}
+.title-img{
+    font-size: 16px;
+    width: 450px;
+    margin-bottom: 50px;
+}
 .title-text-section-one{
-    font-size: 15px;
-    color: rgba(67,67,67,1);
+    font-size: 20px;
+    font-weight: bold;
+}
+.text-section-one{
+    font-size: 16;
+    margin-bottom: 40px;
 }
 .title-reco{
     font-size: 30px;
@@ -23,16 +46,20 @@
     margin-left: 35%;
     width: 300px;
 }
+.center-back{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 
 @media screen and (max-width: 1200px){
     .container-img{
         display: flex;
         flex-direction: column;
-        text-align: center;
         margin-left: 0;
-        width: 330px;
+        width: 350px;
     }
     .container-img img{
-        width: 220px;
+        width: 120px;
     }
 }
