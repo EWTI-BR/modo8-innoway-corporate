@@ -1,6 +1,8 @@
-.section {
+.one{
     background-color: #EFEFEF;
-    margin: 40px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 25px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -12,23 +14,20 @@
 }
 .planilha-2{
     content: var(--planilha-2);
-    width: 580px;
+    width: 550px;
 }
 .planilha-3{
     content: var(--planilha-3);
-    width: 580px;
 }
 .planilha-4{
     content: var(--planilha-4);
-    width: 580px;
 }
 .planilha-5{
     content: var(--planilha-5);
-    width: 580px;
 }
 .planilha-6{
     content: var(--planilha-6);
-    width: 580px;
+    width: 800px;
 }
 
 .title-text-section-one{
@@ -38,11 +37,11 @@
     font-size: 35px;
 }
 .container-intro{
-    margin-top: 30px;
-    font-weight: bold;
     display: flex;
-    align-items: center;
+    margin: 70px 0;
+    font-weight: bold;
     justify-content: space-between;
+    align-items: center;
 }
 .sub{
     font-weight: bold;
@@ -57,10 +56,10 @@
     margin-left: 35%;
     width: 300px;
 }
-.container-text p{
-    margin-top: 20px;
+.container-planilhas p{
+    margin: 40px;
 }
-.container-text{
+.container-planilhas{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,11 +67,24 @@
 .container-dados{
     background-color: rgba(255,255,255,1);
     border-radius: 20px;
-    padding: 100px 250px;
-    margin-bottom: 50px;
+    padding: 50px 190px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.container-dados2{
+    background-color: rgba(255,255,255,1);
+    border-radius: 20px;
+    padding: 50px 60px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center-back{
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1300px){
@@ -82,6 +94,13 @@
         text-align: center;
         margin-left: 0;
         width: 330px;
+    }
+    .title-reco{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .title-text-section-one{
+        text-align: center;
     }
     .container-intro{
         display: flex;
@@ -93,25 +112,31 @@
         flex-direction: column;
         align-items: center;
     }
+    .container-dados{
+        padding: 15px 8px;
+    }
+    .container-dados2{
+        padding: 15px 8px;
+    }
     .container-img img{
-        width: 500px;
+        width: 300px;
     }
     .planilha-1{
-        width: 300px;
+        width: 240px;
     }
     .planilha-2{
-        width: 300px;
+        width: 240px;
     }
     .planilha-3{
-        width: 300px;
+        width: 240px;
     }
     .planilha-4{
-        width: 300px;
+        width: 240px;
     }
     .planilha-5{
-        width: 300px;
+        width: 240px;
     }
     .planilha-6{
-        width: 500px;
+        width: 240px;
     }
 }

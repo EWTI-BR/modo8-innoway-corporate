@@ -397,7 +397,6 @@ input[type="text"]::-webkit-input-placeholder {
     padding-right: 6px;
     height: 28px;
     text-transform: uppercase;
-    font-weight: 600;
     cursor: pointer;
     color: #fff;
     width: 96px;

@@ -51,15 +51,34 @@
     justify-content: center;
     margin-top: 20px;
 }
+.title-text-section-one span{
+    color: rgba(174,202,44,1);
+
+}
 
 @media screen and (max-width: 1200px){
-    .container-img{
+    .head-center{
         display: flex;
         flex-direction: column;
-        margin-left: 0;
-        width: 350px;
+        align-items: center;
+        width: auto;
     }
-    .container-img img{
-        width: 120px;
+    .container-img{
+        margin: 30px;
+    }
+    .title-img{
+        width: auto;
+    }
+    .innopedia{
+        width: 280px;
+    }
+    .one{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+    }
+    .text-section-one{
+        margin: 30px;
     }
 }
